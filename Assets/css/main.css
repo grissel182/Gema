@@ -1,0 +1,362 @@
+section{
+	margin-top: 2%;
+}
+
+/*----------------------------G R I S S -------------------*/
+body {
+  padding-top: 100px;
+  /* Required padding for .navbar-fixed-top. */ }
+
+
+/*MENU*/
+.navbar-fixed-top .nav {
+  padding: 20px 0; }
+.navbar-fixed-top .navbar-brand {
+  padding: 0px; }
+  .navbar-fixed-top .navbar-brand:hover, .navbar-fixed-top .navbar-brand:focus {
+    background-color: transparent; }
+
+.navbar-inverse {
+  background-color:rgba(  229, 229, 229, 0.88) !important;
+  border-bottom: #7FCEC3 solid 2px !important;
+}
+.navbar-inverse .navbar-nav li > a:hover, .navbar-inverse .navbar-nav li > a:focus {
+  border: 1px solid #7FCEC3; 
+  background-color:  rgba(255, 255, 255, 0.2) !important;
+}
+.navbar-inverse .navbar-nav > li > a{
+  color: #3D3D3B !important;
+}
+.change-logo-2{
+    display: none;
+    width: 70%;
+    padding-left: 25%;
+}
+/*SLIDE*/
+#slide{
+  margin-top: 2em;
+}
+#carousel1 .nav a small {
+    display: block;
+}
+#carousel1 .nav {
+    background: #eee;
+}
+.nav-justified > li > a {
+    border-radius: 0px;
+    height: 1px;
+}
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+  background-color: #E5E5E5 !important;
+}
+.nav-pills > li[data-slide-to="0"] a {
+    background-color: #009E88;   /*verde*/
+}
+.nav-pills > li[data-slide-to="1"] a {
+    background-color: #FFD600;    /*amarillo*/
+}
+.nav-pills > li[data-slide-to="2"] a {
+    background-color:  #BB66AA;  /* morado*/
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #009E88;
+    background-color: #009E88;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #FFD600;
+  border: none !important;
+}
+/*MISION - VISION - VALORES*/
+.icon-1{
+  width: 20%;
+  margin: 4%;
+}
+.line-yellow{
+	width: 50%;
+	height: 5px;
+	margin-top: -3px;
+	background-color: #FFD600;
+}
+
+.fondo{
+/*  background-color:  #E5E5E5;
+/*  height: 120px;*/
+  margin-top: 10%;
+  width: 100%;
+  height: 180px;
+  margin-bottom: 4%;
+}
+.bg-mvv{
+display: none;
+}
+
+.fondo:hover{
+ z-index: 10;
+ border-left: 12px solid #009E88;
+ background-color:  #E5E5E5;
+ color: #3D3D3B;
+ transition:all .3s ease;
+ padding-top: 1%;
+ display: block;
+}
+.fondo:hover .bg-mvv{
+  display: block;
+}
+
+.fondo:hover center{
+	display: none;
+}
+.bg-mvv ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+/*----------------------------N E L L Y--------------------*/
+h2 {
+	color: #3D3D3B;
+}
+.A100 {
+	width: 100%;
+}
+.BImg {	
+	background-position: center;
+	background-size: 100%;
+	background-size: cover;
+	z-index: -1;
+	height: 300px;
+}
+.prog {
+	margin: 5% 0%;
+}
+.Img1 {
+	background-image: url(../../Img/Mov.jpg);
+	padding-top: 20%;
+
+}
+.Img2 {
+	background-image: url(../../Img/Jov.jpg);
+	padding-top: 20%;
+}
+.Img3 {
+	background-image: url(../../Img/Juego.jpg);
+	padding-top: 20%;
+}
+.TWhite {
+	color: #FFFFFF;
+	margin-bottom: 2%;
+}
+.Rgba1 {
+background-color: rgba(204, 162, 0, 0.7);
+}
+.Rgba2 {
+background-color: rgba(127, 42, 101, 0.6); 
+}
+.Rgba3 {
+background-color: rgba(0, 151, 132, 0.7);
+}
+.CajaText {
+	display: none;
+}
+/*-------------------Hover-De-Programas----------------*/
+.Ht {
+	margin-top: 2%;
+}
+.Ht:hover .CajaText {
+	display: block;
+}
+.Ht:hover h4 {
+	display: none;
+}
+.Ht:hover h3 {
+	display: none;
+}
+.Ht:hover p {
+	padding: 2%;
+	margin: 2%;
+}
+.Ht:hover .BImg {
+	padding: 2%;
+}
+.Ht:hover .Rgba3 {
+	background-color: rgba(17, 0, 18, 0.7);
+	margin-top:23%;
+}
+.Ht:hover .Rgba2 {
+	background-color: rgba(17, 0, 18, 0.7);
+	margin-top: 25%;
+}
+.Ht:hover .Rgba1 {
+	background-color: rgba(17, 0, 18, 0.7);
+	margin-top: 23%;
+	vertical-align: middle;
+}
+/*---------------------Fin-de-Hover-------------------*/
+.Marco {
+	background-color: #009E88;
+	color: white;
+	padding: 2%;
+}
+.CajaIco {
+	width: 15%;
+	float: left;
+}
+.CajaT2 {
+	width: 88%;
+}
+.btn {
+	background-color:  #FFD600;
+}
+/*------------------Footer-----------------*/
+.BackFooter{
+	border-top: 2px solid  #009E88;
+	background-color: #E5E5E5;
+	padding: 10px 0px;
+	color: #009E88;
+	margin-top: 3%;
+}
+.Ico4 {
+	float: left;
+	margin-right: 3%;
+}
+.IcoM {
+	margin: 0px 2%;
+}
+/*--------------------E L I S A --------------------*//*------------Servicios-----------------------------*/
+.service{
+	height: 200px;
+	margin-top: 2%;
+	padding-top: 21px;
+}
+.service1{
+	background-color: #BB66AA;
+}
+.service2{
+	background-color: #009E88;
+}
+.service-logo{
+	display: block;
+	max-width: 30%;
+	height: auto;
+}
+/*Logo de atencion psicologica*/
+.logo1{
+	-width: 38% !important;
+    padding-top: 4px;
+}
+/*Logo de accion comunitaria*/
+.logo2{
+	max-width: 55% !important;
+	padding-top: 15px;
+}
+/*Logo de empoderamiento*/
+.logo3{
+	width: 20%;
+	display: block;
+	height: auto;
+}
+.service-name{
+	font-size: 1.5em;
+	text-align: center;
+	padding: 2%;
+	color: #fff;
+}
+.desc{
+	display: none;
+}
+/*--------Servicios con hover---------------------*/
+.service:hover{
+	transition:all 0.3s ease;
+	background-color: #F7F7F7;
+	border-bottom: 10px solid #FFD600;
+}
+.service:hover .desc{
+  display: inline-block;
+  color: #009E88;
+  padding: 0 2%;
+  font-size: 16px;
+}
+.service:hover .service-name{
+	color:#BB66AA;
+	padding-top: -15px;
+	padding-bottom: 0 !important;
+	font-size: 16px !important;
+}
+.service:hover .service-logo{
+	display: none;
+}
+.service:hover .logo3{
+	display: none;
+}
+/*----------Servicios en responsive---------------*/
+@media screen and (max-width: 479px){
+	.service-logo{
+		width: 40%;
+	}
+	.desc{
+		font-size: 13px !important;
+	}
+	.service :hover .service-name{
+		padding-top: 10px !important;
+		font-size: 16px !important;
+	}
+}
+@media (min-width:480px) and (max-width: 990px){
+	.service-logo{
+		width: 15%;
+	}
+	.logo3{
+		width: 10% !important;
+	}
+}	
+@media screen and (max-width: 768px){
+	.service-logo{
+		width: 40%;
+	}
+	.desc{
+		font-size: 13px !important;
+	}
+	.service :hover .service-name{
+		padding-top: 10px !important;
+		font-size: 16px !important;
+	}
+	.semblanza {
+		font-size: 15px !important;
+	}
+	.FM {
+		font-size: 17px !important;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 501px ) {
+	.change-logo-2 {
+		display: none !important;
+	}
+}
+/*-------------Quienes Somos-------------------*/
+#nosotros{
+	background-color: #F7F7F7;
+	border-top: 2px solid #FFD600;
+	border-bottom: 2px solid #009E88;
+
+}
+#prog{
+	background-color: #F7F7F7;
+	border-top: 2px solid #FFD600;
+	border-bottom: 2px solid #009E88;
+
+}
+/*#servicios{
+	margin-top: 0px;
+	padding-top: 0px;
+}*/
+.semblanza{
+	color: #68686D;
+	margin:0% 15%;
+	line-height: 1.5;
+	font-size: 18px;
+}
+#contacto{
+	margin-top: 2%;
+}
+.H4V {
+	color: #999990;
+}
